@@ -8,7 +8,7 @@ import javax.ws.rs.core.SecurityContext;
 public class BaseService {
     @Context
     protected SecurityContext securityContext;
-    protected User getSelf() {
+    User getSelf() {
         return (User) securityContext.getUserPrincipal();
     }
 }
