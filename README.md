@@ -3,16 +3,16 @@ The web server of [ITalker](https://github.com/Super262/ITalker).
 
 ## 1. APIs
 ### 1.1 Account
-/login/ \ /register/ \ /bind/
+/login/\ /register/\ /bind/
 
 ### 1.2 Contact
-/editProfile/ \ /getContact/ \ /follow/ \ /search/
+/editProfile/\ /getContact/\ /follow/\ /search/
 
 ### 1.3 Message
-/receiveMsg/ \
+/receiveMsg/
 
 ### 1.4 Group Chatroom
-/msgList/ \ /groupDetail/
+/msgList/\ /groupDetail/
 
 ## 2. Services
 BaseService: the base class of all services.\
